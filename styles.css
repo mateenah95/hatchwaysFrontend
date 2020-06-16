@@ -1,0 +1,75 @@
+body{
+    box-sizing: content-box;
+    background-color: grey;
+    display: grid;
+    justify-content: center;
+}
+
+#main-heading {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+#main-container {
+    padding: 25px;
+    background: white;
+    width: 50vw;
+    height: 80vh;
+    overflow: auto;
+}
+
+.heading-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 5px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.card .card-info {
+    margin-left: 50px;
+}
+
+.card h1 {
+    margin: 25px 0px;
+}
+
+.card img {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    border-radius: 50%;
+    border: solid black 2px;
+    margin-left: 50px;
+}
+
+.input-boxes{
+    width: 100%;
+    height: 50px;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.grade-list {}
+
+.tag-input-box {
+    margin: 25px 0px;
+    width: 50%;
+}
+
+.tag-lists{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.tag-lists li{
+    margin: 0px 5px;
+}
